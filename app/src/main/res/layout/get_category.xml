@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linear_searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp">
+        <AutoCompleteTextView
+            android:id="@+id/auto_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded"
+            android:hint="Search for fun"
+            android:textSize="14sp"
+            android:paddingLeft="7dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:imeOptions="actionSearch"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="true"
+        android:divider="@null"
+        android:fastScrollEnabled="false"
+        android:layout_below="@+id/linear_searchBar"
+        android:visibility="gone">
+
+    </ListView>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_searchBar"
+        android:visibility="visible">
+        <ListView
+            android:layout_marginTop="10dp"
+            android:id="@+id/lvEvents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:choiceMode="singleChoice"
+            android:drawSelectorOnTop="true"
+            android:divider="@null"
+            android:fastScrollEnabled="false">
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

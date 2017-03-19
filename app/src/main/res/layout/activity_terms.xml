@@ -1,0 +1,729 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/terms_toolbar"
+        style="@style/Widget.WebViewApp.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_terms_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:padding="5dp"
+                    android:src="@drawable/img_back" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Terms &amp; Conditions"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The following sets out the terms and condition for use of the FUNCANO website, application and our services."
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_terms1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	Introduction
+    \n\n•	The basics
+    \n\n•	Access to the App
+    \n\n•	Registering a FUNCANO account
+    \n\n•	What you are allowed to do
+    \n\n•	What you are not allowed to do
+    \n\n•	Intellectual property rights
+    \n\n•	Review forums
+    \n\n•	External links
+    \n\n•	Your personal information
+    \n\n•	Purchasing tickets
+    \n\n•	Price and payment
+    \n\n•	Best price guarantee
+    \n\n•	Reward credits
+    \n\n•	Our refunds policy
+    \n\n•	Our service standards
+    \n\n•	Our liability
+    \n\n•	Suspension &amp; termination
+    \n\n•	General
+    \n\n•	Dispute Resolution
+    \n\n•	Additional Terms Relating to Apple
+    \n\n•	Definitions
+    \n\n•	Contact us
+    \n\n•	Purchase of Gift Vouchers"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Introduction"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.1 These are the terms of use, including the terms and conditions of supply (Terms), for www.FUNCANO.com and the FUNCANO application. For the purposes of these Terms, both the website and application shall be referred to as the App. The App is operated by MAVEEH trading as FUNCANO (we, us and our). We are a private company, registered in England. Our registered company number is XXXXXXX, and our registered office is at 203 Vernon Road, Nottingham, England, NG6 0AZ. Our VAT registration number is XXXXXXXX.
+    \n\n1.2 Your use of the App and your Purchase of any of the Tickets offered via our App is subject to these Terms and by placing an order for any Tickets you agree to be bound by them. You should print a copy of these Terms for future reference. Use of your personal information submitted via this App is governed by our privacy policy.
+    \n\n1.3 We reserve the right to change these Terms from time to time by changing them on the App, although no such change will affect any Purchase you have already made with us. Your continued use of the App and any new Purchases will be bound by the new Terms. These Terms were last updated on 12th November 2016.
+    \n\n1.4 As a consumer, nothing in these Terms will prevent you or stop you from being able to enforce or receive the full benefit of your legal rights provided under general UK law (your non-excludable statutory rights). For more information, please contact your local Citizens Advice Bureau, phone numbers can be found on their national website at www.nacab.org.uk.
+    \n\n1.5 In these Terms we use various capitalised terms (they are defined). This means they have special meanings, found in the next-to-last section of these Terms."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. The basics"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.1 To use the App and make any Purchases, you must be 14 or over. By continuing to use the App and agreeing to these Terms you are representing to us that you are 14 and we can rely on this representation.
+    \n\n2.2 The App and the Events offered on the App are only directed at people who access the App and make Purchases in the UK. We do not represent that any Events are suitable outside the UK and you should be careful to satisfy yourself of a Event's suitability to your circumstances (such as considering your travel arrangements to/from the event because unless this is expressly stated as part of the Event, it is not included as part of the Purchase). If you choose to use the App or make a Purchase outside the UK you do so at your own initiative.
+    \n\n2.3 We grant you a limited licence to use the App to access and use our services for your own personal and non-commercial use, provided that you comply fully with these Terms (e.g. you must not re-sell the Tickets).
+    \n\n2.4 We reserve the right to prevent you using the App or making Purchases, however we will honour Purchases already made, unless you have not complied with these Terms or we are unable to because of circumstances outside our control. For more on this, please read below.
+    \n\n2.5 Any purchases made are done so with the permission of the cardholder. We reserve the right to refuse and/or refund payments where reasonable doubt exists as to the permission of the payment.
+    \n\n2.6 An Event is defined as “a thing that happens or takes place with particular start time and date and a particular end time and date”."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Access to the App"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.1 We cannot guarantee the continuous, uninterrupted or error-free operability of the App. There may be times when certain features, parts or content of the App, or the entire App, become unavailable (whether on a scheduled or unscheduled basis) or are modified, suspended or withdrawn by us, in our sole discretion, without notice to you. You agree that we will not be liable to you or to any third party for any unavailability, modification, suspension or withdrawal of the App, or any features, parts or content of the App.
+    \n\n3.2 We may change the format and content of the App from time to time. We reserve the right to modify, change, substitute or withdraw any Events or other information on our App. You agree that your use of the App is on an 'as is' and 'as available' basis and at your sole risk."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Registering a FUNCANO account"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.1 Why register? To put simply, if you don't register an account, you won't be able to make any Purchases. This is because you need an account in order to view your Purchased Tickets, redeem them (if required), view your past Purchases, store your financial details and modify your preferences to name a few. We reserve the right to decline a new registration or cancel your account at any time (including if you don't provide us with a valid e-mail address that is personal to you, or if you don't provide us with a correct name and surname).
+    \n\n4.2 To register an account you will need to fill out a form on the mobile app or online. You warrant that the information you input is true, complete and accurate. You will promptly inform us of any changes to such information (you can do this by updated your account details at any time). The personal information you give us is governed by our privacy policy.
+    \n\n4.3 In order to register and access your account, you will need to choose a password. It is important you keep this password confidential because you are entirely responsible if you do not maintain the confidentiality of your password to a reasonably expected standard and Purchases are made via your account. Let us know as soon as you become aware there has been a breach of security and we will suspend your account. You agree that any person who you directly or implicitly permit to use your password (implicitly, for example, because you do not log out of your account and another person uses your device to make Purchases or you write your password on a noticeboard in your home and a family member then uses it to gain access to your account) is authorised to act as your agent to use the App and make Purchases via your account. You will not be responsible to pay for Purchases made after you have notified us of a password change or that security has been compromised.
+    \n\n4.4 One individual user is allowed to register only one account on the App. You warrant that you will not create fraudulent accounts. You also warrant that you will not use any fraudulent activities to generate unfair Reward Credits in the App to be applied to you (for instance, you will not redeem your own invitation code with a different account of yours).
+    \n\n4.5 For the avoidance of the app, we may use Third Party log-in and registration details as a substitute for direct registration with the App."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. What you are allowed to do"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.1 You may only use the App for non-commercial use and only in accordance with these Terms. You may retrieve and display content from the App on a computer or mobile device screen, print and copy individual pages and Tickets and, subject to the next section, store such pages and/or Tickets in electronic form. Additional terms may also apply to certain features, parts or content of the App and, where they apply, they will be displayed before you access the relevant features, parts or content."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. What you are not allowed to do"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.1 Except to the extent expressly set out in these Terms, you are not allowed to:"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	store pages of the App on a server or other storage device connected to a network or create an electronic database by systematically downloading and storing all or most of the pages of the App; or
+	\n\n•	remove or change any content of the App or attempt to circumvent security or interfere with the proper working of the App or the servers on which it is hosted."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.2 You must only use the App and anything available from the App for lawful purposes (complying with all applicable laws and regulations), in a responsible manner, and not in a way that might damage our name or reputation or that of any of our affiliates.
+\n\n6.3 All rights granted to you under these Terms will terminate immediately in the event that you have not followed your responsibilities as required by them (legally known as a breach).
+\n\n6.4 You must not use the App to advertise anything other than an Event (defined in Clause 2.6). The App is not to be used a platform for Classified Advertisement of establishments or ongoing business premises."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Intellectual property rights"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.1 All intellectual property rights (which includes rights such as copyright, and rights in trade marks) in any content of the App (including text, graphics, software, photographs and other images, videos, sound, trademarks and logos) are owned by us and/or our licensors. Except as expressly set out in these Terms, nothing in these Terms gives you any rights in respect of any intellectual property owned by us or our licensors and you acknowledge that you do not acquire any ownership rights by downloading content from the App. If you print off, copy or store pages from the App (only as permitted by these terms and conditions), you must ensure that any copyright, trade mark or other intellectual property right notices contained in the original content are reproduced.
+\n\n7.2 You agree that by submitting any posting, images or other content for publication on the App (Your Content), you retain any copyright you may have in Your Content, however you grant us and our affiliates a perpetual, irrevocable, worldwide, non-exclusive, royalty-free and fully sub-licensable right and licence to use, reproduce, edit, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such content (in whole or in part) and/or to incorporate it into other works in any form, media or technology, whether for commercial or non-commercial purposes. You waive any moral rights you may have in, or to be identified as the author, of Your Content.
+\n\n7.3 You are solely responsible for Your Content (including content you share with other sites, such as social networking sites) and we do not endorse Your Content or any opinion, recommendation, or advice expressed therein, and we expressly disclaim any and all liability in connection with Your Content."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Review forums"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.1 The App may, from time to time, make message boards, news groups and/or other public forums (collectively Review Forums) available to you so that you can feedback on Events offered on the App and read the feedback submitted by other users of the App. We do not control the material submitted to Review Forums (collectively Postings), nor are Review Forums moderated. You are solely responsible for the content of your Postings as submitted by you and acknowledge that all Postings express the views of their respective authors, and not our views.
+\n\nIf you participate in any Review Forum, you must:"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	keep all Postings relevant to the purpose of the Review Forum and the nature of any topic;
+	\n\n•	not submit any Posting that is unlawful, threatening, abusive, libellous, pornographic, obscene, vulgar, indecent, offensive or which infringes on the intellectual property rights or other rights of any person;
+	\n\n•	not submit any Posting that contains any viruses and/or other code that has contaminating or destructive elements;
+	\n\n•	not submit any Posting containing any form of advertising; and
+	\n\n•	not impersonate, or misrepresent an affiliation with, any person or entity."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You agree that, by submitting any Posting, you grant us and our affiliates a perpetual, irrevocable, worldwide, non-exclusive, royalty-free and fully sub-licensable right and licence to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such Posting (in whole or part) and/or to incorporate it in other works in any form, media or technology, and you waive any moral rights you may have in, or to be identified as the author, of such Posting.
+\n\nWhilst we do not screen or monitor Postings, we reserve the right, in our sole discretion, to delete, edit or modify any Posting submitted by you and/or to close any topic, at any time without notice to you.
+\n\nComplaints about the content of any Posting must be sent to hello@FUNCANO.com and must contain details of the specific Posting giving rise to the complaint"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. External links"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.1 The App may, from time to time, include links to external sites. We have included links to these sites to provide you with access to information and services that you may find useful or interesting. We are not responsible for the content of these sites or for anything provided by them and do not guarantee that they will be continuously available. The fact that we include links to such external sites does not imply any endorsement of our association with their operators."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Your personal information"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Use of your personal information submitted via the App is governed by our privacy policy."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11. Purchasing tickets"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11.1 Your relationship with the Merchant
+\n\nExcept for a very small number of Events, we act as a disclosed agent for our Merchants, such as a theatre or concert promoter. This means that the contract for the Event is between you and the Merchant. In most cases this means there are likely to be additional terms and conditions which apply to your contract with the Merchant (because each Merchant has different terms relevant to the Event, for example a concert promoter will have different terms of entry than a theatre). These additional terms, if any, shall be made known to you at the time of Purchase, and/or you may Contact Us for details. We will also provide a link to the terms in the ticket confirmation email and/or as part of the redemption instructions we send you. You shall ensure that anyone using a Ticket with a Merchant complies with those terms.
+\n\n11.2 Where we act as agent this means that we have no contractual liability to you in respect of that particular Event. However, we may still be liable to you if we have been negligent, made a fraudulent misrepresentation or been in breach of any other relevant law. For a small number of Events we may act as principal rather than agent, which means the contract for the Event is between you and us. We will let you know where we act as principal, otherwise we will always be acting as agent.
+\n\n11.3 It is important to note that it is the Merchant, not us, who is the seller of the Events. Therefore, if you have a complaint with the quality of the Events your complaint lies with the Merchant, not MAVEEH, although we'd still love to hear your feedback so we can decide whether or not to continue offering events from that Merchant in the future. Contact details for the Merchant will be provided in the confirmatory email and/or in the redemption instructions we send you when you make a Purchase. We will of course use our reasonable endeavours to assist you with providing feedback to the Merchant if you so request: Contact us.
+\n\n11.4 Since your contract is not with us, but with a Merchant, we may pass essential booking details to that Merchant (remember, they are not a part of our company, but are third parties to whom we act as agent for). The placing of an order to purchase a Ticket will constitute consent to us passing your details for this.
+\n\n11.5 Tickets
+\n\nFor most events you will receive an electronic Ticket or redemption instructions. Sometimes you will need to collect your Tickets from the box office or a collection point where we are unable to send the electronic Ticket straight to your account. You will be notified if this is necessary and be provided with collection details, including location and times. You must take the acknowledgment of your order with you and the credit/debit card you used to make the order. If you fail to arrive at the collection point within the time specified, you will forfeit your ticket and we will not provide a refund.
+\n\n11.6 Tickets must be used by the date of the Event shown on the Ticket, or it will no longer be valid (and you will not be entitled to a refund).
+\n\n11.7 Tickets may be restricted to a maximum number. You will be informed of this at the point of purchase.
+\n\n11.8 It is your responsibility to check your Tickets as if you have made a mistake it cannot always be rectified after purchase. Please check your Ticket(s) on receipt carefully and Contact Us immediately prior to the Event if there is a mistake, or if you have not received your Ticket(s).
+\n\n11.9 It is your responsibility to ascertain whether an Event has been cancelled or re-scheduled and the date and time of the re-scheduled Event. We will use reasonable endeavours to notify you of a cancelled or re-scheduled Event but we do not guarantee you will be informed of such cancellation before the time for the Event.
+\n\n11.10 Process of purchasing
+\n\nTickets may be Purchased by clicking on the Events you wish to Purchase and then following the prompts that will appear on-screen. You may check and correct any input errors in your order up until the point at which you submit your order to us by clicking the Confirm Booking button within the App.
+\n\n11.11 Where a concession is claimed, proof of identity and concession entitlement (for example of age or student status) may be required.
+\n\n11.12 Once submitted, your order constitutes an offer to us to Purchase a Ticket. All orders are subject to acceptance by us. We are not obliged to accept your order and may, in our discretion, decline to accept any order. Where we accept your order, we will confirm such acceptance to you by sending you an email that confirms that we have accepted your order and providing details of your Ticket. Notwithstanding our acceptance, we may immediately terminate or suspend the Purchase (and suspend or void the Ticket) if subsequently your payment details are found to be invalid or lack funds by our payment provider, or we or our payment provider reasonably suspect fraudulent behaviour linked with your account.
+\n\n11.13 Reproduction, sale, resale or trade of a Ticket is prohibited. If you attempt to do this we reserve the right to void the Ticket and cancel your account. However, we encourage you to Purchase Tickets and give them as gifts!
+\n\n11.14 Additional terms
+\n\nYour ticket remains the property of the Merchant and is a personal revocable licence which may be withdrawn and admission refused at any time upon refunding the printed purchase price.
+\n\n11.15 Our Merchants may prohibit us from issuing exchanges or refunds after a Purchase is made, or for lost, stolen, damaged or destroyed tickets. It is your responsibility to keep your tickets safe, whether in digital or paper ticket formats. It is not always possible to issue duplicate tickets. If duplicates are being issued, a reasonable administration charge may be levied.
+\n\n11.16 We may limit the amount of Tickets you can buy to an Event. We reserve the right, on reasonable suspicion, to cancel without notice or liability to you any order for Tickets purchased over any specified limits or if we reasonably suspect fraudulent conduct in connection with the Purchase.
+\n\n11.17 A ticket shall not be used for advertising, promotions, contests or sweepstakes without the Merchant's and MAVEEH written consent.
+\n\n11.18 Tickets are sold subject to the Event Partner's right to alter or vary the programme due to events or circumstances beyond its reasonable control without being obliged to refund monies or exchange Tickets other than in certain cases set out in Our refunds policy.
+\n\n11.19 The venue may refuse or revoke admission should you or your guests breach any terms and conditions of the Event or Merchant, or otherwise upon reasonable grounds. Every effort to admit latecomers will be made at a suitable break in the event, but admission cannot be guaranteed. Ticket-holders may only leave and re-enter a venue during an Event at the discretion of the management of the venue. You only have the right to a seat corresponding to that stated on the Ticket, but the Merchant reserves the right to provide alternative seats to those stated on the Ticket."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12. Price and payment"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.1 The price of Tickets is as quoted on the App from time to time. Prices include VAT, if applicable.
+\n\nPrices are liable to change at any time, but changes will not affect Purchases in respect of which we have already sent you an email confirmation.
+\n\n12.2 Payment for all orders must be made by credit or debit card by entering such information in the Settings part in the App or as part of the booking process.
+\n\n12.3 You should be aware that online payment transactions are subject to validation checks by your card issuer and we are not responsible if your card issuer declines to authorise payment for any reason. Please note, it is possible that your card issuer may charge you an online handling fee or processing fee. We are not responsible for this."
+                android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13. Our refunds policy"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13.1 Purchases for Tickets cannot be exchanged or refunded, except in the following circumstances:"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(a) If we discover an error in the price of the Tickets you have ordered, we will use reasonable endeavours to inform you as soon as possible and allow you to either reconfirm your order at the correct price (crediting or debiting your account as applicable), or cancel your order. If you choose to cancel, you will receive a full refund from us if you've already paid. If we are unable to contact you, this will be treated as a cancellation.
+            \n\n(b) If an Event is cancelled or there is a material change to the subject matter of the Ticket contract (that is what you have contracted to see) we will give you a full refund of the face value price paid or, if the face value has been reduced by the Event Partner, the discounted face value. A material change is one which, in our reasonable opinion, makes the Event materially different to what a purchaser of the Event, taken generally, could reasonably expect. For example, the use of understudies in a theatre performance does not constitute a material change. If an event is re-scheduled (and you cannot attend the re-scheduled date), we will coordinate with the Event Partner on how your ticket(s) will be treated however a refund cannot be guaranteed."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13.2 Paying refunds
+\n\nWe will usually refund any money received from you using the same method originally used by you to pay for your purchase.
+\n\nYou may reject a credit or refund within 30 days of receiving the credit or refund, but if you do not reject the credit or refund by notifying us within that timeframe you will be deemed to have accepted the credit or refund in full and final settlement of any and all claims, actions, demands and proceedings you may have against MAVEEH arising out of the Ticket or Purchase for which you received the credit or refund.
+\n\n13.3 Your legal rights
+\n\nNothing in these Terms limits or takes away from your legal rights under general law, however please note that there is an exemption to the cancellation rights in respect of contracts for leisure service activities on specific dates under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations. As such, Purchases made via the App are generally non-cancellable and non-refundable, although you may be entitled to a refund in certain circumstances (see Our Refunds Policy). For more information, please contact your local Citizens Advice Bureau, phone numbers can be found on their national website at www.nacab.org.uk."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14. Our service standards"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We warrant that we will exercise reasonable care and skill in performing our obligations under these Terms. Provided we have done so, we shall not be liable for errors or omissions, although we do, however, issue credits and refunds in limited circumstances (see section Our Refunds Policy). In the event of an error or omission we will use reasonable endeavours to correct any errors or omissions as soon as reasonably practicable after we become aware.
+\nExcept as expressly stated in these Terms, all warranties, conditions or other terms, whether express or implied by statute or common law or otherwise are excluded to the fullest extent permitted by law. This does not stop you from exercising your legal rights under general law to the extent that we cannot lawfully exclude them, or claiming any remedies you might be entitled to under general law."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15. Our liability"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15.1 Nothing in these Terms shall limit or exclude our liability to you:"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•	for death or personal injury caused by our negligence;
+	\n•	for fraudulent misrepresentation;
+	\n•	for breach of any obligations implied by section 12 of the Sale of Goods Act 1979 or section 2 of the Supply of Goods and Services Act 1982;
+	\n•	under Part I of the Consumer Protection Act 1987; or
+	\n•	for any other liability that may not, under English law, be limited or excluded."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15.2 Subject to this, in no event shall we be liable to you for any business losses (and loss of profits shall always be treated as a type of business loss) and any liability we do have for losses you suffer arising from any Purchases shall not exceed 100% of the aggregate amount spent on the Purchase for the relevant Ticket(s). Further, our liability to you for any and all losses however they arise in connection with these Terms and your use of the App (including any Purchases) is strictly limited to losses that were reasonably foreseeable. Losses are foreseeable where they could be contemplated by you and us at the time your order is accepted by us.
+\n15.3 Other than as expressly described in these Terms, MAVEEH does not warrant and excludes all liability in respect of, or to provide, the Events for which Tickets may be redeemed, including in respect of the quality, safety, usability or any other aspect of the Events in respect of which a Ticket is or may be redeemed. We do, however, issue credits and refunds in limited circumstances (see section Our Refunds Policy).
+\n15.4 We will not be liable or responsible for any failure to perform, or delay in performance of, any of our obligations that are caused by events outside our reasonable control.
+\n15.5 Where videos are displayed they are intended to be purely representative of the artist or event. Your actual experience may vary."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16. Suspension and termination"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16.1 We may suspend or terminate all or part of your use of the App, your account and/or a Purchased Ticket if you use (or permit anyone other than you to use) the App, your account or a Purchased Ticket in breach of these Terms and we do not reasonably consider that your breach can be resolved, or if it can be resolved you have failed to resolve it to our reasonable satisfaction after we have asked you to do so and given you a reasonable opportunity to do so.
+\n16.2 Termination shall not prejudice any other right or remedy you or we may have in respect of accrued rights (including rights in respect of any breach) or liabilities which arose prior to termination.
+\n16.3 We will make best endeavours to  tell you why your account and/or payment has been suspended or terminated however we make no assurances and no guarantees as to when or if this information will be received by you."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17. General"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17.1 These Terms are personal to you. You may not transfer or assign any or all of your rights or obligations under these Terms to any other person without our consent.
+\n17.2 All notices given by you to us must be given in writing to the address set out at the end of these Terms. We may give notice to you at either the email or postal address you provide to us when placing an order.
+\n17.3 If we fail to enforce any of our rights, it does not result in a waiver of that right.
+\n17.4 If any provision of these Terms is found to be unenforceable, that provision shall be struck out and where capable all other provisions shall remain in force unaffected.
+\n17.5 These Terms may not be varied except with our express written consent.
+\n17.6 These Terms and any document expressly referred to in them constitute the entire agreement between you and us about the subject matter of these Terms and, in relation to such subject matter, supersedes and extinguishes all earlier understandings and agreements between you and us and all earlier representations by us, including any innocent or negligent misrepresentations. We do not limit our liability to you for any fraudulent misrepresentations made by us in these Terms or otherwise.
+\n17.7 All provisions of these Terms apply equally to and are for the benefit of MAVEEH, its group members (which means, in relation to MAVEEH, any group undertaking as defined in section 1161 of the Companies Act) and the Merchants at any relevant time and each shall have the right to enforce such provisions directly or on its own behalf (save that these Terms may be varied or rescinded without the consent of the group members and the Merchants). Subject to the previous sentence, no term of this Agreement is otherwise enforceable pursuant to the Contracts (Rights of Third Parties) Act 1999 by any person who is not a party to it.
+\n17.8 These Terms (and all non-contractual relationships between you and us) shall be governed by English law, and you agree that any dispute between you and us regarding them or any Purchase will only be dealt with by the nearest courts in England and Wales (nearest to where you reside)."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18. Dispute Resolution"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18.1 In the first instance we request that you Contact Us if you have a complaint against us and we shall try to resolve it.
+\n18.2 We shall deal with complaints and concerns in a timely manner.
+\n18.3 Nothing limits your right to bring a complaint against us by applying to your nearest court in England and Wales."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19. Additional terms relating to Apple"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you download, access and/or use the App on Apple’s iOS operating system:
+\n19.1 The App may only be accessed and used on a device owned or controlled by you and using Apple’s iOS operating system, and only in accordance with Apple’s usage rules published in its App Store terms of service;
+\n19.2 You acknowledge and agree that:"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Apple has no obligation at all to provide any support or maintenance services in relation to the App. If you have any maintenance or support questions in relation to the App, please Contact Us, not Apple, using the details in these Terms;
+\nb) Except as otherwise expressly set out in these Terms, any claims relating to the possession or use of the App are between you and us (and not between you, or anyone else, and Apple);
+\nc) In the event of any claim by a third party that your possession or use (in accordance with these Terms) of the App infringes any intellectual property rights, Apple will not be responsible or liable to you in relation to that claim; and
+\nd) Although these Terms are entered into between you and us (and not Apple), Apple, as a third party beneficiary under these Terms, will have the right to enforce these Terms against you;"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19.3 You represent and warrant that:"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) You are not, and will not be, located in any country that is the subject of a United States Government embargo or that has been designated by the United States Government as a terrorist supporting country; and
+\nb) You are not listed on any United States Government list of prohibited or restricted parties; and"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19.4 If the App does not conform to any warranty applying to it, you may notify Apple, which will then refund the purchase price of the App (if any) to you. Subject to that, and to the maximum extent permitted by law, Apple does not give or enter into any warranty, condition or other term in relation to the App and will not be liable to you for any claims, losses, costs or expenses of whatever nature in relation to the App or as a result of you or anyone else using the App or relying on any of its content."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20. Definitions"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merchant means a third party partner of FUNCANO who sells the events and services for which a Purchase can be made.
+\nPurchase or Purchased means the purchase of a Ticket.
+\nTicket means a ticket for a particular Event from a Merchant, which is subject to any additional terms of entry set by the Merchant.
+\nEvents means the events and/or services offered by a particular Merchant for which a Purchase can be made."
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="21. Contact Us"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/txt_terms53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please submit any questions you have about these Terms, an order you have placed or purchasing in general by email to hello@FUNCANOapp.com or write to us at:
+\nFUNCANO 203 Vernon Road
+\nNottingham
+\nNG6 0AZ"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

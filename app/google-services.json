@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "209228028132",
+    "project_id": "funcano-159617"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209228028132:android:b5d671a5b05ad8d9",
+        "android_client_info": {
+          "package_name": "com.app.funfoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209228028132-qpot6fa01egobllm1b7hjbje87evup0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.funfoapp",
+            "certificate_hash": "ba85b80b535911fa61966cfdcaf713d7d4960038"
+          }
+        },
+        {
+          "client_id": "209228028132-joub3ktkbiua9c8kj4k0db4u8obeea4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB48TGTSGf58M4qBqHaD08eQM7vPUF6-lk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

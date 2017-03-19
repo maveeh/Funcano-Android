@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Funcano</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="facebook_app_id">944875202296630</string>
+    <string name="create_account"> <u>Create Account</u></string>
+    <string name="back"> <u>Back to Home</u></string>
+    <string name="back_signin"> <u>Back to SignIn</u></string>`
+    <string name="forgot"> <u>Forgot Password</u></string>
+
+    <!--<string name="base_url">http://192.168.1.190/funfo/index.php/users/</string>-->
+    <!--<string name="base_url_profile_image">http://192.168.1.190/funfo/uploads/</string>-->
+
+    <string name="base_url">http://funfo.sauditoonz.com/funfo/index.php/users/</string>
+    <string name="base_url_profile_image">http://funfo.sauditoonz.com/funfo/uploads/</string>
+
+    <string-array name="array_name">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+    <string name="title_activity_event_by_category">EventByCategory</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="help">Help &amp; Support</string>
+    <string name="title_activity_about_funfo">AboutFunfo</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_funfo"><a href="http://www.google.com">FUNFO</a></string>
+    <string name="create_flyer"><font fgcolor="black">Create\nFlyer</font></string>
+    <string name="edit"><font color='#000000'>EDIT</font></string>
+
+</resources>
