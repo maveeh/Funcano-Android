@@ -323,7 +323,7 @@ public class SignUp extends Activity implements View.OnClickListener{
                 //DbOp db=new DbOp(context);
                 String url = getResources().getString(R.string.base_url)+"uRegistrationByEmail/?uemail=" + mEmail+ "&upwd="+mPwd + "&uFirstName="+mFirst
                         + "&uLastName="+mLast + "&uGender=" + mGender + "&uDob=&uPostalCode=&uOs=Android&uDeviceId=&uLat=&uLong=";
-                //Log.e("tag", "response " + url);
+                Log.i("url", "response " + url);
                 JSONParser parser = new JSONParser();
                 String res = parser.getJSONFromUrl(url, "GET", null);
                 //Log.e("tag", "response " + res);

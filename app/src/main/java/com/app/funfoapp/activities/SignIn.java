@@ -183,7 +183,7 @@ public class SignIn extends Activity implements View.OnClickListener {
         protected Void doInBackground(Void... voids) {
             try {
                 DbOp db=new DbOp(context);
-                String url = getResources().getString(R.string.base_url)+"uLogin/?uEmail=" + mEmail+ "&upwd="+mPwd ;
+                String url = getResources().getString(R.string.base_url)+"users/uLogin/?uEmail=" + mEmail+ "&upwd="+mPwd ;
                 //Log.e("tag", "response " + url);
                 JSONParser parser = new JSONParser();
                 String res = parser.getJSONFromUrl(url, "GET", null);
