@@ -154,7 +154,7 @@ public class LoginActivity extends ActionBarActivity implements View.OnClickList
                     if(allowPermission()) {
                         googlePlusLogin();
 
-//                        new RegisterNewAsync().execute();
+                        new RegisterNewAsync().execute();
                     }
                 } else {
                     Functions.showAlert(context, "Internet Connection Error", "Please check your internet connection and try again.");
@@ -379,7 +379,7 @@ public class LoginActivity extends ActionBarActivity implements View.OnClickList
                 params.add(new BasicNameValuePair("uLong", ""));
 
                 JSONParser parser = new JSONParser();
-                String res = parser.getJSONFromUrl(url, "POST", params);
+                String res = parser.getJSONFromUrl(url, "GET", params);
                 //Log.e("tag", "response " + res);
                 JSONObject obj = new JSONObject(res);
                 success = obj.getInt("success");
