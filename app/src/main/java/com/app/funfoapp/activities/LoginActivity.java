@@ -284,6 +284,21 @@ public class LoginActivity extends ActionBarActivity implements View.OnClickList
     SharedPreferences sp;
 
     public void fbLogin() {
+        //generate hash key
+
+        try {
+            PackageInfo info = getPackageManager().getPackageInfo("com.app.funfoapp", PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.i("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+
         callbackManager = CallbackManager.Factory.create();
 
         LoginManager.getInstance().registerCallback(callbackManager,
@@ -305,7 +320,7 @@ public class LoginActivity extends ActionBarActivity implements View.OnClickList
                                             try {
                                                 String jsonresult = String.valueOf(json);
                                                 profilePicUrl = json.getJSONObject("picture").getJSONObject("data").getString("url");
-                                                str_email = json.getString("email");
+                                                str_email = json.optString("email");
                                                 str_id = json.getString("id");
                                                 gender = json.getString("gender");
                                                 String[] name;

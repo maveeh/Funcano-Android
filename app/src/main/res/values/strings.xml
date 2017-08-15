@@ -4,7 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_sign_in">SignIn</string>
-    <string name="facebook_app_id">944875202296630</string>
+    <!--<string name="facebook_app_id">944875202296630</string>-->
+    <string name="facebook_app_id">114895899132745</string>
     <string name="create_account"> <u>Create Account</u></string>
     <string name="back"> <u>Back to Home</u></string>
     <string name="back_signin"> <u>Back to SignIn</u></string>`
