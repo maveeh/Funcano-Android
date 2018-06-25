@@ -54,8 +54,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView txt_toolbar;
     String uType="";
     Home_Frag homeFrag;
-    Flyers_Frag flyerFrag;
-    ImageView img_logo;
+    private Flyers_Frag flyerFrag;
+    private ImageView img_logo;
+    private int test = 123;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initAllVar();
         addListener();
         llHome.performClick();
+        test = 1;
     }
 
     //Initilization Ui Variables
