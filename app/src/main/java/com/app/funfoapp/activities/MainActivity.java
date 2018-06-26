@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Home_Frag homeFrag;
     private Flyers_Frag flyerFrag;
     private ImageView img_logo;
-    private int test = 12;
+    private int test = 112;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
